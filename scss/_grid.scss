@@ -1,0 +1,45 @@
+
+.container{
+  max-width: 960px;
+  margin:auto;
+}
+
+.row{
+  @extend .clearfix;
+}
+
+  
+  @media screen and (min-width: $breakpoint-large){
+.col-3{
+    background: -webkit-linear-gradient(left, rgba(250,235,247,1) 0%, rgba(239,209,230,1) 50%, rgba(235,198,226,1) 60%, rgba(234,190,229,1) 100%);
+    margin: 10px 0; 
+    position:relative;
+    @include equalSpaced(3, 3%, 100%);
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 325px;
+    border-radius: 40px;
+    
+    p{
+        -webkit-transform: translate(0,300px);
+        top: 0;
+    }
+    
+}
+      
+.col-3:hover p{
+  -webkit-animation-name: slide-in;
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+}
+  }
+
+.col-3:hover .iconic{
+    -webkit-transform: scale(1.5);
+}
+  

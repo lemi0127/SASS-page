@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+}
+
+.iconic {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    display: block;
+}
+
+h2, h3, h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+body{
+      width:100%;
+      background:url(../img/banner3.jpg)no-repeat center center fixed;
+      background-size: cover;
+}
+
+.masthead{
+    background: white;
+}
+
+header{
+       border-bottom-left-radius: 20px; 
+       border-bottom-right-radius: 20px;
+}
+
+.foot{
+    margin-top: 5px;
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+button{
+    background: -webkit-linear-gradient(left, rgba(250,235,247,1) 0%, rgba(239,209,230,1) 50%, rgba(235,198,226,1) 60%, rgba(234,190,229,1) 100%);
+    
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width: 100%;
+}

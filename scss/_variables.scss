@@ -1,0 +1,9 @@
+$breakpoint-large: 960px;
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
